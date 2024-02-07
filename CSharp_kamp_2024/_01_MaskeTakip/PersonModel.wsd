@@ -1,0 +1,10 @@
+@startuml 
+title Person Model
+class Person {
+    + FirstName : string
+    + LastName : string
+    + NationalIdentity : long
+    + DateOfBirthYear : int
+}
+
+@enduml
