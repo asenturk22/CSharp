@@ -382,3 +382,53 @@ verirler. Parametre radyan cinsinden açı belirtir.
 
 # Exception Kavramı
 
+Programın çalışma zamanı sırasında (runtime), programın çökmesine yol açabilecek problemli durumlara
+exception denilmektedir.
+
+```c#
+namespace CSD
+{
+    class App
+    {
+        public static void Main()
+        {
+            int a = 10;
+            System.Console.WriteLine("a = {1}", a); // exception oluşur
+        }
+    }
+}
+```
+
+Burada WriteLine metodunda {1} yer tutucusu için bir argüman belirtilmemiştir. Bu kod çalıştırıldığında
+exception oluşur ve program WriteLine metodunda çöker.
+
+## var Anahtar Sözcüğüyle Bildirim
+
+Bir değişken var
+anahtar sözcüğü ile bildirilirse o değişkenin türü ilkdeğer olarak verilmiş ifadenin türünden olur. Bu tür bir
+daha değiştirilemez. Örneğin:
+
+```c#
+var x = 10; // x int türden
+```
+```c#
+var result = Math.Sqrt(10);  // result, double türdendir. 
+```
+```c#
+
+```
+```c#
+
+```
+```c#
+
+```
+```c#
+
+```
+```c#
+
+```
+```c#
+
+```
